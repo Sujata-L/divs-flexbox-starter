@@ -97,8 +97,9 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #20B2AA;
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -106,6 +107,11 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+}
+
+span {
+    font-family: 'Galada', cursive;
+    font-weight: lighter;
 }
 
 .wrapper {
@@ -120,13 +126,19 @@ body {
   align-items: center;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1.20em;
   height: 300px;
   width: 30%;
+  border-right: 1px solid #ffffff;
 }
 
-
+.div-2 {
+    padding-right: 30px;
+}
+.div-3 {
+    border-right: 0px;
+    padding-right: 30px;
+}
 
 
 /* ==========================================================================
