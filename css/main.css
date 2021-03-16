@@ -110,6 +110,25 @@ body {
   height: 100%;
 }
 
+header h1 {
+    font-size: 2em;
+    flex-flow: row wrap;
+}
+
+main p {
+    font-size: 1.40em;
+    flex-flow: row wrap;
+}
+
+header,
+footer,
+main {
+    background-color: #20B2AA;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+}
+
 .wrapper {
   display: flex;
   flex-flow: row wrap;
